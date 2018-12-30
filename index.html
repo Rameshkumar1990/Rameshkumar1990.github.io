@@ -27,7 +27,7 @@
     <header class="wpm_header">
         <div class="container">
             <div class="row">
-                <div class="col-sm-3" data-uk-scrollspy="{cls:'uk-animation-slide-left', repeat: true}">
+                <div class="col-sm-3">
                     <a href="index.html"><img class="wpm_logo wpm_mobile_center" src="images/logo/logo.png" alt=""></a>
                 </div>
                 <div class="col-sm-8">
@@ -45,7 +45,7 @@
                         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                             <ul class="nav navbar-nav navbar-right wpm_menu">
                                 <li><a href="#home">Home</a></li>
-                                <li><a href="#about">About us</a></li>
+                                <li><a class="hidden" href="#about">About us</a></li>
                                 <li><a href="#menu">Menu</a></li>
                                 <li><a href="#contact">Contact us</a> </li>
                             </ul>
@@ -76,10 +76,10 @@
                     <img src="images/slider/01.jpg" alt="...">
 
                     <div class="carousel-caption">
-                        <h1>Lorem ipsum dolor sit amet</h1><br>
+                        <h1>Kones & Straws</h1><br>
 
-                        <a href="#"><button class="btn btn-default hvr-pulse-shrink" type="submit">Get Started</button></a>
-                        <a href="#"><button class="btn btn-default hvr-pulse-shrink" type="submit">Learn More</button></a>
+                        <!--<a href="#"><button class="btn btn-default hvr-pulse-shrink" type="submit">Get Started</button></a>
+                        <a href="#"><button class="btn btn-default hvr-pulse-shrink" type="submit">Learn More</button></a> -->
 
                     </div>
                 </div>
@@ -89,10 +89,10 @@
                     <img src="images/slider/02.jpg" alt="...">
 
                     <div class="carousel-caption">
-                        <h1>Lorem ipsum dolor sit amet</h1><br>
+                        <h1>Kones & Straws</h1><br>
 
-                        <a href="#"><button class="btn btn-default hvr-pulse-shrink" type="submit">Get Started</button></a>
-                        <a href="#"><button class="btn btn-default hvr-pulse-shrink" type="submit">Learn More</button></a>
+                        <<!-- a href="#"><button class="btn btn-default hvr-pulse-shrink" type="submit">Get Started</button></a>
+                        <a href="#"><button class="btn btn-default hvr-pulse-shrink" type="submit">Learn More</button></a> -->
                     </div>
                 </div>
 
@@ -101,11 +101,11 @@
                     <img src="images/slider/03.jpg" alt="...">
 
                     <div class="carousel-caption">
-                        <h1>Lorem ipsum dolor sit amet</h1><br>
+                        <h1>Kones & Straws</h1><br>
 
 
-                        <a href="#"><button class="btn btn-default hvr-pulse-shrink" type="submit">Get Started</button></a>
-                        <a href="#"><button class="btn btn-default hvr-pulse-shrink" type="submit">Learn More</button></a>
+                        <!-- <a href="#"><button class="btn btn-default hvr-pulse-shrink" type="submit">Get Started</button></a>
+                        <a href="#"><button class="btn btn-default hvr-pulse-shrink" type="submit">Learn More</button></a> -->
                     </div>
                 </div>
 
@@ -126,7 +126,7 @@
 
 
 
-    <section class="wpm_about_area" id="about">
+    <section class="wpm_about_area hidden" id="about">
 
         <div class="container">
 
@@ -190,7 +190,7 @@
         <div class="container">
             <div class="row">
                 <h2 data-uk-scrollspy="{cls:'uk-animation-fade', repeat: true}">Our Menu</h2>
-                <h5 class="sub_title">Our ice cream brands are amongst our best performing businesses</h5>
+                <h5 class="sub_title hidden">Our ice cream brands are amongst our best performing businesses</h5>
                 <div class="wpm_border">
                     <div class="wpm_inside_border"> </div>
                 </div>
@@ -293,7 +293,7 @@
                                 <li class="list-group-item">Oreo<span class="pull-right">Rs. 80</span></li>
                                 <li class="list-group-item">Chocolate<span class="pull-right">Rs. 70</span></li>
                                 <li class="list-group-item">Caramel<span class="pull-right">Rs. 80</span></li>
-                                <li class="list-group-item">Cold Cofee<span class="pull-right">Rs. 60</span></li>
+                                <li class="list-group-item">Cold Coffee<span class="pull-right">Rs. 60</span></li>
                                 <li class="list-group-item">Rose Milk<span class="pull-right">Rs. 60</span></li>
                             </ul>
                         </div>
@@ -330,18 +330,30 @@
         <div class="container">
             <div class="row">
                 <div data-uk-scrollspy="{cls:'uk-animation-slide-left', repeat: true}">
-                    <div class="wpm_address">
-                        <h3>We'd Love to Hear From You</h3>
-                        <p>Get in touch using the contact details below:</p>
-                        <p>Address Line 1,</p>
-                        <p>Address Line 2,</p>
-                        <p>Cox Bazer , Bangladesh</p>
-                        <p>Phone: +880 1599702974</p>
-                        <p>Fx: +880 1599702974</p>
-                        <p>Email: <a href="#">info@Html5Load.com</a></p>
+                    <div class="">
+                        <div class="row wpm_address">
+                            <h3>We'd Love to Hear From You</h3>
+                            <div class="col-sm-6">
+                                <p>Get in touch using the contact details below:</p>
+                                <p>Flat 403, Block 2,</p>
+                                <p>Vertex classic,</p>
+                                <p>Srila park pride (Near Calavary Temple),</p>
+                                <p>Hydernagar,</p>
+                                <p>Hyderabad, Telangana.</p>
+                            </div>
+                            <div class="col-sm-6">
+                                <p>Visit our branch at:</p>
+                                <p>Kones & Straws,</p>
+                                <p>R S Brothers,</p>
+                                <p>Lingampally,</p>
+                                <p>Gangaram,</p>
+                                <p>Chandanagar,</p>
+                                <p>Hyderabad, Telangana.</p>
+                            </div>
+                        </div>
                     </div>
 
-                    <div class="embed-responsive embed-responsive-16by9 wpm_maph ">
+                    <div class="embed-responsive embed-responsive-16by9 wpm_maph hidden">
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14709.505133882521!2d89.53475469999998!3d22.825564050000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ff9ab96e0f8897%3A0x9d77b9c214396364!2sSonadanga%2C+Khulna!5e0!3m2!1sen!2sbd!4v1429172770401" width="730" height="370" frameborder="0" style="border:0"></iframe>
                     </div>
                 </div>
@@ -351,7 +363,7 @@
 
 
 
-    <footer class="wpm_main_footer">
+    <footer class="wpm_main_footer hidden">
 
         <div class="container">
             <div class="row">
@@ -441,9 +453,6 @@
     <script src="js/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/Main-script.min.js"></script>
-
-
-
 
 </body>
 
